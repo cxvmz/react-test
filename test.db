@@ -1,0 +1,9 @@
+create database test;
+
+create table logs (
+id int not null IDENTITY(1,1),
+fecha_inicial date,
+fecha_final date,
+tc_venta float not null,
+tc_compra float not null
+);
